@@ -102,6 +102,28 @@ class MyHomePage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Container(
+                      margin: const EdgeInsets.only(left: 40, right: 40, top: 20, bottom: 20),
+                      decoration: const BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                          colors: [Colors.white, Colors.grey],
+                        ),
+                      ),
+                      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 5),
+                      child: const Align(
+                        alignment: Alignment.center,
+                        child: TextField(
+                          decoration: InputDecoration(
+                            hintText: "Confirm password:",
+                            border: InputBorder.none,
+                            isCollapsed: true,
+                          ),
+                          maxLength: 16,
+                        ),
+                      ),
+                    ),
                     ElevatedButton(
                       onPressed: () {
                         // Navigate to another screen here
