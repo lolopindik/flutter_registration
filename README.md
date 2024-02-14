@@ -1,16 +1,5 @@
-# registration
+<h1>Registration</h1>
 
-A new Flutter project.
+![image](https://github.com/lolopindik/flutter_registration/assets/136455904/c581af38-28dc-4da6-a600-14f05b833da6)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/lolopindik/flutter_registration/assets/136455904/aedf965d-de1a-419e-9364-352aaf2963ec)
