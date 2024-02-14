@@ -115,7 +115,7 @@ class AnotherScreen extends StatelessWidget {
                         alignment: Alignment.center,
                         child: TextField(
                           decoration: InputDecoration(
-                            hintText: "Military bidet number:s",
+                            hintText: "Military bilet numbers:",
                             border: InputBorder.none,
                             isCollapsed: true,
                           ),
