@@ -76,9 +76,6 @@ class MyHomePage extends StatelessWidget {
                             border: InputBorder.none,
                             isCollapsed: true,
                           ),
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
                           maxLength: 100,
                         ),
                       ),
@@ -100,9 +97,6 @@ class MyHomePage extends StatelessWidget {
                             hintText: "Password:",
                             border: InputBorder.none,
                             isCollapsed: true,
-                          ),
-                          style: TextStyle(
-                            color: Colors.white,
                           ),
                           maxLength: 16,
                         ),
@@ -202,9 +196,6 @@ class AnotherScreen extends StatelessWidget {
                             border: InputBorder.none,
                             isCollapsed: true,
                           ),
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
                           maxLength: 10,
                         ),
                       ),
@@ -226,9 +217,6 @@ class AnotherScreen extends StatelessWidget {
                             hintText: "Insurance:",
                             border: InputBorder.none,
                             isCollapsed: true,
-                          ),
-                          style: TextStyle(
-                            color: Colors.white,
                           ),
                           maxLength: 12,
                         ),
@@ -252,9 +240,6 @@ class AnotherScreen extends StatelessWidget {
                             border: InputBorder.none,
                             isCollapsed: true,
                           ),
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
                           maxLength: 100,
                         ),
                       ),
@@ -277,35 +262,7 @@ class AnotherScreen extends StatelessWidget {
                             border: InputBorder.none,
                             isCollapsed: true,
                           ),
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
                           maxLength: 100,
-                        ),
-                      ),
-                    ),
-                    Container(
-                      margin: const EdgeInsets.only(left: 40, right: 40, top: 20, bottom: 20),
-                      decoration: const BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [Colors.white, Colors.grey],
-                        ),
-                      ),
-                      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 5),
-                      child: const Align(
-                        alignment: Alignment.center,
-                        child: TextField(
-                          decoration: InputDecoration(
-                            hintText: "Postcode",
-                            border: InputBorder.none,
-                            isCollapsed: true,
-                          ),
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
-                          maxLength: 6,
                         ),
                       ),
                     ),
