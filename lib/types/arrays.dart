@@ -25,7 +25,7 @@ class Photos {
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyFakUPQFZMwpGDFA4hCfIRb9195iFIXrWiw&usqp=CAU',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvFdiX3cVeSU6-L_k0-x0lGbLp8dBMMl8Vm3qUeeshvDgYb4uR7lfzBP-uJ_80aqQEJY&usqp=CAU',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_0Vfg9id-4UoGTQiZWJow48bJpJlV-hSU6A&usqp=CAU',
-      '',
+      'https://zvukipro.com/uploads/posts/2023-09/1694996971_d32e19331b.jpg',
       'https://masterpiecer-images.s3.yandex.net/1f886ac3849611eea1e3aaafe6635749:upscaled',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-Ncb_LUvVvh50kZQ_P7bPWcF7TrVicsbNgTB9a1Kz7Fdw-9Yldt4QaYRa69KIAN5UJs&usqp=CAU'
     ];
