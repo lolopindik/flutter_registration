@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:registration/components/phones_list.dart';
-import 'package:registration/types/phones.dart';
-// Import the array_operations.dart file
+import 'package:registration/types/arrays.dart';
 
 class AnotherScreen extends StatelessWidget {
   const AnotherScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    List<String> countNames = ArrayOperations.getCountNames();
-    List<String> photos = ArrayOperations.getPhotos();
+    List<String> countNames = CountNames.getNames();
+    List<String> photos = Photos.getUrls();
 
     return Scaffold(
       appBar: AppBar(

@@ -1,5 +1,5 @@
-class ArrayOperations {
-  static List<String> getCountNames() {
+class CountNames {
+  static List<String> getNames() {
     return [
       '1 phone',
       '2 phones',
@@ -13,8 +13,10 @@ class ArrayOperations {
       '10 phones'
     ];
   }
+}
 
-  static List<String> getPhotos() {
+class Photos {
+  static List<String> getUrls() {
     return [
       'https://upload.wikimedia.org/wikipedia/commons/2/22/%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD_%D0%A2%D0%90-68.JPG',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVGc7KqjhllSdh9wbB_8tjMInacZXquY6gSw&usqp=CAU',
@@ -23,7 +25,7 @@ class ArrayOperations {
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyFakUPQFZMwpGDFA4hCfIRb9195iFIXrWiw&usqp=CAU',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvFdiX3cVeSU6-L_k0-x0lGbLp8dBMMl8Vm3qUeeshvDgYb4uR7lfzBP-uJ_80aqQEJY&usqp=CAU',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_0Vfg9id-4UoGTQiZWJow48bJpJlV-hSU6A&usqp=CAU',
-      'https://png.pngtree.com/thumb_back/fw800/background/20230704/pngtree-antique-rotary-phone-with-a-golden-vintage-touch-on-a-pristine-image_3706537.jpg',
+      '',
       'https://masterpiecer-images.s3.yandex.net/1f886ac3849611eea1e3aaafe6635749:upscaled',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-Ncb_LUvVvh50kZQ_P7bPWcF7TrVicsbNgTB9a1Kz7Fdw-9Yldt4QaYRa69KIAN5UJs&usqp=CAU'
     ];
