@@ -122,7 +122,7 @@ class MyHomePage extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => AnotherScreen()),
+                              builder: (context) => const AnotherScreen()),
                         );
                       },
                       style: ElevatedButton.styleFrom(
