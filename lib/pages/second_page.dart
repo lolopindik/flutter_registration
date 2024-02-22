@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:registration/components/card_product.dart';
 import 'package:registration/components/phones_list.dart';
 import 'package:registration/types/arrays.dart';
 
@@ -26,6 +27,19 @@ class AnotherScreen extends StatelessWidget {
           return CustomListItem(
             photoUrl: photos[index],
             title: countNames[index],
+            index: index,
+            onTap: () {
+              // Navigate to the product details screen here
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ProductDetailsScreen(
+                    photoUrl: photos[index],
+                    title: countNames[index],
+                  ),
+                ),
+              );
+            },
           );
         },
       ),

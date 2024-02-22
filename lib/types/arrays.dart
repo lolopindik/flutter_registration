@@ -2,15 +2,15 @@ class CountNames {
   static List<String> getNames() {
     return [
       '1 phone',
-      '2 phones',
-      '3 phones',
-      '4 phones',
-      '5 phones',
-      '6 phones',
-      '7 phones',
-      '8 phones',
-      '9 phones',
-      '10 phones'
+      '2 phone',
+      '3 phone',
+      '4 phone',
+      '5 phone',
+      '6 phone',
+      '7 phone',
+      '8 phone',
+      '9 phone',
+      '10 phone'
     ];
   }
 }
